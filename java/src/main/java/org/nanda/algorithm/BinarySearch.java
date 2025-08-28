@@ -30,7 +30,5 @@ public class BinarySearch {
     } else {
       System.out.println("Found at index " + result);
     }
-
-
   }
 }

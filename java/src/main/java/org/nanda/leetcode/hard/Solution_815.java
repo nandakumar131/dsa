@@ -4,10 +4,8 @@ package org.nanda.leetcode.hard;
 import java.util.*;
 
 /**
- *
  * We will consider each route as a node and if there is path between
  * one route to another, we will consider that as an edge.
- *
  */
 public class Solution_815 {
 
@@ -187,12 +185,6 @@ public class Solution_815 {
                       {1,2,7,27,36,44},
                       {7,14,33}
                     };
-    /*
-     * [[25,33],[3,5,13,22,23,29,37,45,49],[15,16,41,47],
-     * [5,11,17,23,33],[10,11,12,29,30,39,45],[2,5,23,24,33],
-     * [1,2,9,19,20,21,23,32,34,44],[7,18,23,24],
-     * [1,2,7,27,36,44],[7,14,33]]
-     */
     Route[] graph = constructGraph(routes);
     int count = getBusCount(graph, 7, 47);
     System.out.println(count);
