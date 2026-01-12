@@ -1,7 +1,7 @@
 # Data Structures & Algorithms
-**Duration:** 12 Weeks
-**Target Audience:** Senior & Staff Engineers
-**Goal:** Master algorithmic problem solving with a focus on code quality, trade-offs, concurrency, and system design intersections.
+**Duration:** 12 Weeks <br>
+**Target Audience:** Senior & Staff Engineers <br>
+**Goal:** Master algorithmic problem solving with a focus on code quality, trade-offs, concurrency, and system design intersections. <br>
 
 ---
 
@@ -29,9 +29,9 @@ At the Senior/Staff level, the interview signal is different. You are not just b
 	* [Day 7: Weekly Review & Retro](#day-7) 
 - #### **Week 2: Linked Lists & Hash Tables** 
 	* [Day 8: Linked Lists Internals](#day-8) 
-	* [Day 9: Advanced Pointer Manipulation](#day-9) 
-	* [Day 11: Hash Table Internals](#day-11) 
+	* [Day 9: Advanced Pointer Manipulation](#day-9)
 	* [Day 10: Merging & Intersection](#day-10)
+	* [Day 11: Hash Table Internals](#day-11) 
 	* [Day 12: Design a Hash Map](#day-12) 
 	* Day 13: Hash Map Applications
 	* Day 14: Phase 1 Assessment
