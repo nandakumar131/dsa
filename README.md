@@ -128,7 +128,7 @@ At the Senior/Staff level, the interview signal is different. You are not just b
 ## 📅 Week 1: Complexity, Arrays, and Strings
 
 <a name="day-1"></a>
-### [Day 1: Big O & Amortized Analysis](theory/day-1)
+### [Day 1: Big O & Amortized Analysis](theory/day-1.md)
 * **Theory Focus:**
     * **Time Complexity:** Big O (Worst case), Big Omega (Best case), Big Theta (Average).
     * **Space Complexity:** Differentiate *Auxiliary Space* (extra space used) vs. *Input Space*.
