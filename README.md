@@ -20,17 +20,17 @@ At the Senior/Staff level, the interview signal is different. You are not just b
 # Index 
 ### **Phase 1: Foundations & Internals (Weeks 1-2)** 
 - #### **Week 1: Complexity, Arrays, and Strings**
-	* [Day 1: Big O & Amortized Analysis](#day-1) 
-	* [Day 2: Arrays & Memory Layout](#day-2) 
-	* [Day 3: The "Two Pointers" Pattern](#day-3) 
-	* [Day 4: The "Sliding Window" Pattern](#day-4) 
-	* [Day 5: Strings & Memory Management](#day-5) 
-	* [Day 6: Bit Manipulation](#day-6) 
-	* [Day 7: Weekly Review & Retro](#day-7) 
+	* [Day 1: Big O & Amortized Analysis](theory/day-1.md)
+	* [Day 2: Arrays & Memory Layout](theory/day-2.md)
+	* [Day 3: The "Two Pointers" Pattern](theory/day-3.md)
+	* [Day 4: The "Sliding Window" Pattern](theory/day-4.md)
+	* [Day 5: Strings & Memory Management](theory/day-5.md)
+	* [Day 6: Bit Manipulation](theory/day-6.md)
+	* [Day 7: Weekly Review & Retro](theory/day-7.md) 
 - #### **Week 2: Linked Lists & Hash Tables** 
-	* [Day 8: Linked Lists Internals](#day-8) 
-	* [Day 9: Advanced Pointer Manipulation](#day-9)
-	* [Day 10: Merging & Intersection](#day-10)
+	* [Day 8: Linked Lists Internals](theory/day-8.md)
+	* [Day 9: Advanced Pointer Manipulation](theory/day-9.md)
+	* [Day 10: Merging & Intersection](theory/day-10.md)
 	* [Day 11: Hash Table Internals](#day-11) 
 	* [Day 12: Design a Hash Map](#day-12) 
 	* Day 13: Hash Map Applications
@@ -127,7 +127,6 @@ At the Senior/Staff level, the interview signal is different. You are not just b
 
 ## 📅 Week 1: Complexity, Arrays, and Strings
 
-<a name="day-1"></a>
 ### [Day 1: Big O & Amortized Analysis](theory/day-1.md)
 * **Theory Focus:**
     * **Time Complexity:** Big O (Worst case), Big Omega (Best case), Big Theta (Average).
@@ -137,7 +136,6 @@ At the Senior/Staff level, the interview signal is different. You are not just b
 * **Practice:**
     * **Fibonacci Number:** Compare Recursive $O(2^n)$ vs. Iterative/DP $O(n)$.
 
-<a name="day-2"></a>
 ### Day 2: Arrays & Memory Layout
 * **Theory Focus:**
     * **RAM & Caching:** Contiguous memory storage.
@@ -150,7 +148,6 @@ At the Senior/Staff level, the interview signal is different. You are not just b
     * [Easy] **Move Zeroes** (In-place optimization).
     * [Medium] **Product of Array Except Self** (No division, $O(1)$ space).
 
-<a name="day-3"></a>
 ### Day 3: The "Two Pointers" Pattern
 * **Theory Focus:**
     * Converging pointers (Start/End) vs. Parallel pointers.
@@ -160,7 +157,6 @@ At the Senior/Staff level, the interview signal is different. You are not just b
     * [Medium] **Container With Most Water** (Greedy proof logic).
     * [Medium] **3Sum** (Handling duplicates is the key challenge).
 
-<a name="day-4"></a>
 ### Day 4: The "Sliding Window" Pattern
 * **Theory Focus:**
     * Fixed size window vs. Dynamic size window.
@@ -170,7 +166,6 @@ At the Senior/Staff level, the interview signal is different. You are not just b
     * [Medium] **Longest Substring Without Repeating Characters** (Essential Senior screen).
     * [Hard] **Minimum Window Substring** (Edge case management).
 
-<a name="day-5"></a>
 ### Day 5: Strings & Memory Management
 * **Theory Focus:**
     * **Immutability:** Why strings are immutable in Java/Python (Security, String Pool).
@@ -180,7 +175,6 @@ At the Senior/Staff level, the interview signal is different. You are not just b
     * [Medium] **Group Anagrams** (Hashing design: Sort key vs. Count key).
     * [Medium] **Longest Palindromic Substring** (Expand around center).
 
-<a name="day-6"></a>
 ### Day 6: Bit Manipulation (Optimization Toolkit)
 * **Theory Focus:**
     * Operators: AND `&`, OR `|`, XOR `^`, Shifts `<<` `>>`.
@@ -192,7 +186,6 @@ At the Senior/Staff level, the interview signal is different. You are not just b
     * [Easy] **Number of 1 Bits** (Hamming Weight).
     * [Medium] **Sum of Two Integers** (Add without `+`).
 
-<a name="day-7"></a>
 ### Day 7: Weekly Review & Retro
 * **Action:** Re-do the hardest problem of the week *without* solution/IDE.
 * **Mock:** Verbalize the "Sliding Window" concept as if teaching a junior.
@@ -201,7 +194,6 @@ At the Senior/Staff level, the interview signal is different. You are not just b
 
 ## 📅 Week 2: Linked Lists & Hash Tables
 
-<a name="day-8"></a>
 ### Day 8: Linked Lists Internals
 * **Theory Focus:**
     * Memory layout: Non-contiguous, cache misses.
@@ -212,7 +204,6 @@ At the Senior/Staff level, the interview signal is different. You are not just b
 * **Problems:**
     * [Easy] **Reverse Linked List** (Iterative & Recursive).
 
-<a name="day-9"></a>
 ### Day 9: Advanced Pointer Manipulation
 * **Theory Focus:**
     * **Sentinel Nodes (Dummy Heads):** Simplifying edge cases.
@@ -222,7 +213,6 @@ At the Senior/Staff level, the interview signal is different. You are not just b
     * [Medium] **Linked List Cycle II** (Find cycle start - Math proof).
     * [Medium] **Reorder List**.
 
-<a name="day-10"></a>
 ### Day 10: Merging & Intersection
 * **Theory Focus:**
     * Managing multiple pointers.
